@@ -54,3 +54,10 @@ plt.show()
 In this case, `x` and `y` will contain the log data from the `N`'th `run` command in LAMMPS, counting from 0.
 
 Any invalid call to the `get()`-function will result in the function returning `None`. This happes if the user asks for a thermo propery that does not exist in the log file, or if the user asks for a `run_num` larger than the number of runs in the logfile. 
+
+## Further documentation
+
+More detailed examples, including conversion to pandas dataframes,
+usage of the command line tool and colour utilities, are available in
+the `documentation <docs/index.rst>`_.
+
